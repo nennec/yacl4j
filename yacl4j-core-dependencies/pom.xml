@@ -9,7 +9,7 @@
 	<artifactId>yacl4j-core-dependencies</artifactId>
 
 	<properties>
-		<jackson.version>2.5.4</jackson.version>
+		<jackson.version>2.9.8</jackson.version>
 	</properties>
 
 	<!-- making all Jackson dependencies optional ensures that they are processed by the maven-shade-plugin but not included as transitive dependencies of the code that depends on yacl4j-core -->
